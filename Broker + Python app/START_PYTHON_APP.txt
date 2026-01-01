@@ -1,0 +1,6 @@
+Dwie komendy w wierszu poleceń:
+
+cd "C:\Users\msi\OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie\Praca Inżynierska Konrad Iwański\Broker + Python app"
+
+
+py -3.12 "python das_tower_viewer.py"

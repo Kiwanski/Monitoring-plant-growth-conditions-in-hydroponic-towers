@@ -1,0 +1,5 @@
+broker:
+mosquitto -v -c "C:\Users\msi\OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie\Praca Inżynierska Konrad Iwański\Broker + Python app\mosquitto.conf.txt"
+
+sub:
+mosquitto_sub -h localhost -p 1883 -t "#" >> "C:\Users\msi\OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie\Praca Inżynierska Konrad Iwański\Broker + Python app\mqtt.log"
